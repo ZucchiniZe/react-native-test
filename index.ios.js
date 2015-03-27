@@ -11,7 +11,7 @@ class NativeTest extends React.Component {
         style={{flex: 1}}
         initialRoute={{
           component: Movies,
-          title: 'Movies'
+          title: 'Top 30 Movies In Theaters'
         }}
       />
     )
