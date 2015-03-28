@@ -21,7 +21,6 @@ var Movie = React.createClass({
           <Text>Year: {movie.year}</Text>
           <Text>Rating: {movie.mpaa_rating}</Text>
           <Text>Length: {calcRuntime(movie.runtime)}</Text>
-          <Text style={styles.link}>{'http://www.imdb.com/title/tt' + movie.alternate_ids.imdb}</Text>
         </View>
         <View style={styles.description}>
           <Text>{movie.synopsis}</Text>
@@ -35,7 +34,6 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: 60,
-    backgroundColor: '#F5FCFF',
     paddingLeft: 10,
     paddingRight: 10,
     paddingTop: 15

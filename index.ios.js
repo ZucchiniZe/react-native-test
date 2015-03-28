@@ -1,6 +1,6 @@
 'use strict';
 var React = require('react-native');
-var { AppRegistry, StyleSheet, View, Text, NavigatorIOS } = React;
+var { AppRegistry, NavigatorIOS } = React;
 
 var Movies = require('./Movies')
 
